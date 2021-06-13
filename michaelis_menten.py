@@ -56,3 +56,5 @@ def update(val):
     
 s_k1.on_changed(update)
 s_k2.on_changed(update)
+
+plt.show()
