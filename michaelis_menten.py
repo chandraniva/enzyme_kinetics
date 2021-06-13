@@ -38,9 +38,9 @@ ax_k2.spines['top'].set_visible(True)
 ax_k2.spines['right'].set_visible(True)
 
 s_k1 = Slider(ax=ax_k1, label='k1 ', valmin=0, valmax=2.0,
-              valinit=k1_init ,valfmt=' %1.1f ', facecolor='#cc7000')
+              valinit=k1_init ,valfmt=' %1.2f ', facecolor='#cc7000')
 s_k2 = Slider(ax=ax_k2, label ='k2 ', valmin=0, valmax=2.0, 
-              valinit=k2_init,valfmt='%1.1f ', facecolor='#cc7000')
+              valinit=k2_init,valfmt='%1.2f ', facecolor='#cc7000')
 
 f_d, = ax.plot(t, enz_conc_init, linewidth=2.5)
 ax.set_xlabel("time (seconds)")
