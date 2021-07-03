@@ -26,6 +26,9 @@ def fun(t,k1,k2,e0,a):
     enz_conc = e0 - sol
     return enz_conc
 
+plt.plot(t,fun(t,0.3,0.1,e0,a))
+plt.show()
+
 fig = plt.figure(figsize=(6, 4))
 ax = fig.add_subplot(111)
 fig.subplots_adjust(bottom=0.13, top=0.70)
