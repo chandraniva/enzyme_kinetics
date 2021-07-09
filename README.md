@@ -1,1 +1,0 @@
-# enzyme_kinetics
